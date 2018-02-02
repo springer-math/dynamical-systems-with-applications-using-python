@@ -1,6 +1,6 @@
-# Springer Source Code
+﻿# Springer Source Code
 
-This repository accompanies [*Dynamical Systems with Applications Using Python*] by Stephen Lynch (Birkhäuser, 2018).
+This repository accompanies *Dynamical Systems with Applications Using Python* by Stephen Lynch (Birkhäuser, 2018).
 
 Download the files as a zip using the green button, or clone the repository to your machine using Git.
 
