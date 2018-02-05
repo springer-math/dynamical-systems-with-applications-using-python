@@ -1,4 +1,4 @@
-n# Programs 12a: The method of steps.
+# Programs 12a: The method of steps.
 # See Figure 12.1.
 from sympy import integrate,symbols
 xi,t,i=symbols('xi t i')
