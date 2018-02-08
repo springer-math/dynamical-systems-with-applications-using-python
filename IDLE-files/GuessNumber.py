@@ -1,5 +1,6 @@
 # Guess the number game.
 # Save file as GuessNumber.
+# Run the Module (or type F5). 
 
 import random # Import the random module.
 

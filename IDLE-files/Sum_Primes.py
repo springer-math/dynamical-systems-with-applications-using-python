@@ -1,5 +1,7 @@
 # Sum of primes to N.
-# Save file as sumP.py.
+# Save file as sum_Primes.py.
+# Run the Module (or type F5). 
+
 print('What do you want to sum to?')
 N=input()
 N=int(N)

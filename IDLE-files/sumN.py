@@ -1,5 +1,6 @@
 # A program that sums the natural numbers to N.
 # Save file as sumN.py.
+# Run the Module (or type F5). 
 def sumN(n):
     sum = 0
     i = 1

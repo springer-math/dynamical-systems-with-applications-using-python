@@ -1,4 +1,6 @@
 # Plot the Koch snowflake.
+# See Exercise 1(d).
+# Run the Module (or type F5). 
 from turtle import *
 def KochSnowflake(length, level):  # KochSnowflake function.
     speed(0)                      # Fastest speed.

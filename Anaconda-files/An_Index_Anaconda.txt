@@ -1,0 +1,109 @@
+
+Python Anaconda files
+
+Program_1a.py --- Solve a simple ODE.
+Program_1b.py --- Solve a second order ODE.
+Program_1c.py --- Plot two curves on one graph.
+Program_1d.py --- Subplots.
+Program_1e.py --- Surface and contour plot in 3D.
+Program_1f.py --- A parametric curve in 3D.
+Program_1g.py --- Animation of a simple curve.
+
+Program_2a.py --- Solve a separable ODE.
+Program_2b.py --- Solve the logistic ODE.
+Program_2c.py --- Power series solution.
+Program_2d.py --- Power series solution for van der Pol.
+Program_2e.py --- Plot series solution against numerical solution.
+Program_2f.py --- Solve a linear first order ODE.
+Program_2g.py --- Solve a linear second order ODE.
+
+Program_3a.py --- Plot the phase portrait of a linear system.
+Program_3b.py --- Plot the phase portrait of a nonlinear system.
+Program_3c.py --- Finding critical points.
+
+Program_4a.py --- Phase portrait and time series of Holling-Tanner model.
+
+Program_5a.py --- Limit cycle of a Fitzhugh-Nagumo system.
+Program_5b.py --- Error between one-term and numerical solution.
+Program_5c.py --- Lindstedt-Poincare technique.
+
+Program_6a.py --- Contour plot.
+Program_6b.py --- Surface plot.
+
+Program_7a.py --- Animation of a simple curve.
+Program_7b.py --- Animation of a subcritical Hopf bifurcation.
+Program_7c.py --- Animation of a SNIC bifurcation.
+
+Program_8a.py --- The Rossler attractor.
+Program_8b.py --- The Lorenz Attractor.
+Program_8c.py --- The Belousov-Zhabotinsky reaction.
+Program_8d.py --- Animation of a Chua circuit bifurcation.
+
+Program_9a.py --- Simple Poincare return map.
+Program_9b.py --- Hamiltonian with two degrees of freedom plot.
+Program_9c.py --- Phase portrait and Poincare map for the Duffing system.
+Program_9d.py --- Bifurcation diagram of Duffing equation.
+
+Programs_10a.py --- Computing Lyapunov quantities.
+Programs_10b.py --- Division algorithm for multivariate polynomials.
+Programs_10c.py --- S-polynomial.
+Programs_10d.py --- Computing the Groebner basis.
+Programs_10e.py --- Computing Groebner basis of Lyapunov quantities.
+Programs_10f.py --- Animation of a homoclinic limit cycle bifurcation.
+Programs_10g.py --- Animation of a homoclinic limit cycle bifurcation.
+
+Programs_11a.py --- Animation of a Lienard limit cycle.
+
+Programs_12a.py --- The method of steps.
+Programs_12b.py --- Plot of solution by method of steps.
+Programs_12c.py --- The Mackey-Glass DDE.
+Programs_12d.py --- The Lang-Kobayashi DDEs.
+
+Programs_13a.py --- Computing bank interest.
+Programs_13b.py --- Solving a second order recurrence relation.
+Programs_13c.py --- The Leslie matrix, eigenvalues and eigenvectors.
+
+Programs_14a.py --- Graphical iteration of the tent map.
+Programs_14b.py --- Bifurcation diagram of the logistic map.
+Programs_14c.py --- Computing lyapunov exponents for the logistic map.
+Programs_14d.py --- Iteration of the Henon map.
+Programs_14e.py --- Lyapunov exponents of the Henon map.
+
+Programs_15a.py --- Point plot for a Julia set.
+Programs_15b.py --- Colormap of a Julia set.
+Programs_15c.py --- Color Mandelbrot set.
+Programs_15d.py --- Color Newton fractal Julia set.
+
+Programs_16a.py --- Intersection of implicit curves.
+Programs_16b.py --- Chaotic Attractor of the Ikeda map
+Programs_16c.py --- Bifurcation diagram of the Ikeda map.
+
+Programs_17a.py --- The Koch curve.
+Programs_17b.py --- Chaos game and the Sierpnski triangle.
+Programs_17c.py --- Barnsley's fern.
+Programs_17d.py --- Subplots of tau, D_q and f(alpha) multifractal 
+                    spectra.
+
+Programs_18a.py --- Generating a multifractal image
+Programs_18b.py --- Counting pixels in a color image.
+Programs_18c.py --- Image and statistical analysis on microbes.png
+Programs_18d.py --- Fast Fourier transform of a noisy signal
+Programs_18e.py --- Iterative map and power spectra
+Programs_18f.py --- Fast Fourier transform of Lena image
+Programs_18g.py --- Edge detection in Lena image
+
+Programs_19a.py --- Chaos control in the logistic map.
+Programs_19b.py --- Chaos control in the Henon map.
+Programs_19c.py --- Chaos synchronization between two Lorenz systems.
+Programs_19d.py --- Generalized synchronization.
+
+Programs_20a.py --- The generalized delta learning rule.  
+Programs_20b.py --- The discrete Hopfield network.   
+Programs_20c.py --- Iteration of a minimal chaotic neuromodule.
+Programs_20d.py --- Bifurcation diagram of neuromodule.
+
+Programs_21a.py --- The Hodgkin-Huxley equations.
+Programs_21b.py --- The Fitzhugh-Nagumo half-adder.
+Programs_21c.py --- Phase portrait Josephson junction limit cycle.
+Programs_21d.py --- Animated Josephson junction limit cycle.
+Programs_21e.py --- Pinched hysteresis of a memristor.

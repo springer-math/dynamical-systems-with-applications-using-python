@@ -1,5 +1,6 @@
 # A function to list the n terms of the Fibonacci sequence.
 # Save file as Fibonacci.py.
+# Run the Module (or type F5). 
 def Fibonacci(n):
     a,b = 0,1
     print(a),print(b),print(a+b)

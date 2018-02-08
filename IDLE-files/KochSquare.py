@@ -1,6 +1,9 @@
+# Koch square fractal.
+# Run the Module (or type F5). 
+
 from turtle import *
 def KochSquare(length, level):  # KochSquare function.
-    speed(0)                    # Fastest spped.
+    speed(0)                    # Fastest speed.
     for i in range(4):
         PlotSide(length, level)
         rt(90)

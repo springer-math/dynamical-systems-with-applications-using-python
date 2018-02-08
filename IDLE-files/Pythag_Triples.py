@@ -1,4 +1,6 @@
 # Part solution to Pythagorean triples.
+# See Exercise 1(c).
+# Run the Module (or type F5). 
 
 n=1
 m=100

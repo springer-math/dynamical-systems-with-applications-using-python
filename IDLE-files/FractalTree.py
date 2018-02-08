@@ -1,3 +1,5 @@
+# A fracta tree.
+
 from turtle import *
 setheading(90)   # The turtle points straight up.
 

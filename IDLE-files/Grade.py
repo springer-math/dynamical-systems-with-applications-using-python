@@ -1,3 +1,6 @@
+# A program to grade student results.
+# Run the Module (or type F5). 
+
 def Grade(score):
     if score >= 70:
         letter = 'A'

@@ -1,4 +1,5 @@
 # A function to convert degrees Fahrenheit to degrees Centigrade.
+# See Exercise 1(a).
 # Save file as F2C.py.
 # Run the Module (or type F5). 
 def F2C():
