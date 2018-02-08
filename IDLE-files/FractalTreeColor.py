@@ -1,9 +1,6 @@
 # A program to plot a color fractal tree.
 # Run Module and type >>> FractalTreeColor(200,8) in Python Shell.
-<<<<<<< HEAD
 # Run the Module (or type F5). 
-=======
->>>>>>> d31c2056dd94c348c0d923e5ec43889f169382a5
 from turtle import *
 setheading(90)               # The turtle points straight up.
 penup()                      # Lift the pen.
