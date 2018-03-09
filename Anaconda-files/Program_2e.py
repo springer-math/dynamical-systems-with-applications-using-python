@@ -28,6 +28,6 @@ plt.tick_params(labelsize=15)
 plt.xlim(0,4)
 plt.ylim(0,4)
 
-legend = ax.legend(loc='lower center', shadow=True)
+ax.legend(loc='lower center', shadow=True)
 
 plt.show()
