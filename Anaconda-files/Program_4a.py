@@ -1,4 +1,4 @@
-# Program 4a: Holling-Tanner model. See Figures 4.5 and 4.6. 
+# Program 4a: Holling-Tanner model. See Figures 4.5 and 4.6.
 # Time series and phase portrait for a predator-prey system.
 import numpy as np
 from scipy import integrate
@@ -6,14 +6,14 @@ import matplotlib.pyplot as plt
 
 # The Holling-Tanner model.
 def Holling_Tanner(X, t=0):
-    # here X[0] = x and X[1] = y    
+    # here X[0] = x and X[1] = y
     return np.array([ X[0]*(1-X[0]/7)-6*X[0]*X[1]/(7+7*X[0]), 0.2*X[1]*(1-0.5*X[1]/X[0]) ])
 
 t = np.linspace(0, 200, 1000)
 # initial values: x0 = 7, y0 = 0.1
 Sys0 = np.array([7, 0.1])
 
-X, infodict = integrate.odeint(Holling_Tanner,Sys0,t,full_output=True)                  
+X, infodict = integrate.odeint(Holling_Tanner,Sys0,t,full_output=True)
 x,y = X.T
 
 fig = plt.figure(figsize=(15,5))
@@ -31,6 +31,8 @@ ax1.legend(loc='best')
 
 ax2.plot(x, y, color="blue")
 ax2.set_xlabel("x")
-ax2.set_ylabel("y")  
+ax2.set_ylabel("y")
 ax2.set_title("Phase portrait")
 ax2.grid()
+
+plt.show()
