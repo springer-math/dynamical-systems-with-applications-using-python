@@ -22,6 +22,6 @@ plt.ylim(ymin,ymax);
 t=np.linspace(0,9*2*np.pi,900000)
 xs=odeint(dx_dt,[1,0],t)
 for i in range(9):
-    print('r_',i,'=',xs[100000*i,0])
+    print('r{} = {}'.format(i, xs[100000*i,0])
 
 plt.show()
