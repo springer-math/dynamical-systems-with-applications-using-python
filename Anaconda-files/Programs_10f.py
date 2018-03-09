@@ -5,6 +5,7 @@ import numpy as np
 from scipy.integrate import odeint
 
 fig=plt.figure()
+plt.title("Homoclinic Bifurcation")
 plt.axis([-1.5, 1.5, -1.5, 1.5])
 myimages=[]
 
@@ -17,6 +18,6 @@ for C in np.arange(-0.2, 0.2, 0.01):
     xs = odeint(Homoclinic1, x0, time)
     imgplot = plt.plot(xs[:,0], xs[:,1], "r-")
     myimages.append(imgplot)
-   
+
 my_anim = animation.ArtistAnimation(fig,myimages,interval=100,blit=False,repeat_delay=100)
 plt.show()
