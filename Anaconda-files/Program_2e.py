@@ -1,5 +1,5 @@
 # Program 2e: Numerical and truncated series solutions.
-# See Figure 2.6. 
+# See Figure 2.6.
 from scipy.integrate import odeint
 import matplotlib.pyplot as plt
 import numpy as np
@@ -29,3 +29,5 @@ plt.xlim(0,4)
 plt.ylim(0,4)
 
 legend = ax.legend(loc='lower center', shadow=True)
+
+plt.show()
