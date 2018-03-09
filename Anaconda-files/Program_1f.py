@@ -12,7 +12,6 @@ x = np.sin(t)
 y = np.cos(t)
 z = t
 ax.plot(x, y, z)
-ax.legend()
 ax.set_xlabel("X Axis")
 ax.set_ylabel("Y Axis")
 ax.set_zlabel("Z Axis")
