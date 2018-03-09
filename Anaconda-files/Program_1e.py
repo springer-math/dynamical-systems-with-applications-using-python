@@ -3,7 +3,7 @@
 
 import numpy as np
 import matplotlib.pyplot as plt
-#from mpl_toolkits.mplot3d import Axes3D
+from mpl_toolkits.mplot3d import Axes3D
 
 alpha=0.7
 phi_ext=2*np.pi*0.5
@@ -33,3 +33,4 @@ ax.set_ylabel('$\phi_m$',fontsize=15)
 ax.set_zlabel('Potential',fontsize=15)
 plt.tick_params(labelsize=15)
 ax.set_title("Surface and contour plots",fontsize=15)
+plt.show()
