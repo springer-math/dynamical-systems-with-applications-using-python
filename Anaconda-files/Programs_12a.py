@@ -10,9 +10,7 @@ def phi(i,t):
         return phi(i-1,i-1)-integrate(phi(i-1,xi-1),(xi,i-1,t))
 
 x=[]
-tmax=10;        
-for j in range(tmax+1):
-    p=phi(j,t)
-    x.append(p) 
-    
-print('x(t)=',x) 
+tmax=10;
+x = [phi(j,t) for j in range(tmax+1)]
+
+print('x(t) =', x)
