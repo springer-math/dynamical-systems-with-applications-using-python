@@ -1,4 +1,4 @@
-# Program 3b: Nonlinear system, phase portrait with vector plot. 
+# Program 3b: Nonlinear system, phase portrait with vector plot.
 # See Figure 3.12.
 
 import matplotlib.pyplot as plt
@@ -19,7 +19,7 @@ for r in ic:
         xs = odeint(dx_dt, x0, ts)
         plt.plot(xs[:,0], xs[:,1], "r-")
 
-# Trajectories in backward time.       
+# Trajectories in backward time.
 ts = np.linspace(0, -10, 500)
 ic = np.linspace(-3, 3, 6)
 for r in ic:
@@ -28,7 +28,7 @@ for r in ic:
         xs = odeint(dx_dt, x0, ts)
         plt.plot(xs[:,0], xs[:,1], "r-")
 
-# Label the axes and set fontsizes.    
+# Label the axes and set fontsizes.
 plt.xlabel("x",fontsize=15)
 plt.ylabel("y",fontsize=15)
 plt.tick_params(labelsize=15)
@@ -40,3 +40,5 @@ X,Y=np.mgrid[-3:3:20j,-3:3:20j]
 u=X
 v=X*(1-X**2)+Y
 pl.quiver(X,Y,u,v,color='b')
+
+plt.show()
