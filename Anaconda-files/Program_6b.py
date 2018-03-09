@@ -1,9 +1,10 @@
 # Program 6b: Surface plot of Hamiltonian. See Figure 6.2(b).
 import numpy as np
 import matplotlib.pyplot as plt
+from mpl_toolkits.mplot3d import Axes3D
 
 def fun(x, y):
-  return y**2/2-5*np.cos(x)
+    return y**2/2-5*np.cos(x)
 
 fig = plt.figure()
 ax = fig.add_subplot(111, projection='3d')
@@ -20,4 +21,5 @@ ax.set_ylabel(r'$\phi$',fontsize=12)
 ax.set_zlabel(r'$H(\theta,\phi)$',fontsize=12)
 plt.tick_params(labelsize=12)
 ax.view_init(30, -70)
+
 plt.show()
