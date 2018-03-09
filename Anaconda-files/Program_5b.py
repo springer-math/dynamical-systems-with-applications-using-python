@@ -16,3 +16,5 @@ xpert0=np.cos(ts)
 plt.plot(ts,xN-xpert0)
 plt.xlabel("t")
 plt.ylabel("x")
+
+plt.show()
