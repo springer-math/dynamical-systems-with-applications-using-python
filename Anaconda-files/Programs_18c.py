@@ -9,7 +9,6 @@ from scipy import ndimage
 from skimage import feature
 from skimage.color import rgb2gray
 
-centroids=[]
 Microbes=io.imread("Microbes.png")
 fig1 = plt.figure()
 plt.imshow(Microbes,cmap='gray',interpolation='nearest')
