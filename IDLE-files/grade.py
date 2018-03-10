@@ -1,7 +1,7 @@
 # A program to grade student results.
-# Run the Module (or type F5). 
+# Run the Module (or type F5).
 
-def Grade(score):
+def grade(score):
     if score >= 70:
         letter = 'A'
     elif score >= 60:

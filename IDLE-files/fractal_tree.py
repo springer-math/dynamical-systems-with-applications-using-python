@@ -1,9 +1,9 @@
-# A fracta tree.
+# A fractal tree.
 
 from turtle import *
 setheading(90)   # The turtle points straight up.
 
-def FractalTree(length, level): # Fractal tree function.
+def fractal_tree(length, level): # Fractal tree function.
     """
     Draws a fractal tree
     """
@@ -11,9 +11,8 @@ def FractalTree(length, level): # Fractal tree function.
     if level > 0:
         fd(length)   # Forward.
         rt(30)       # Right turn.
-        FractalTree(length*0.7, level-1)
+        fractal_tree(length*0.7, level-1)
         lt(90)       # Left turn.
-        FractalTree(length*0.5, level-1)
+        fractal_tree(length*0.5, level-1)
         rt(60)       # Rotate 60 degrees.
         bk(length)   # Back.
-
