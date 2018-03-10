@@ -7,13 +7,11 @@ import numpy as np
 from skimage.measure import regionprops
 from scipy import ndimage
 from skimage import feature
-from skimage.color import rgb2gray
 
 Microbes=io.imread("Microbes.png")
 fig1 = plt.figure()
 plt.imshow(Microbes,cmap='gray',interpolation='nearest')
 Binary=np.zeros((959,1379))
-Binary=rgb2gray(Binary)
 
 for i in range(959):
     for j in range(1379):
