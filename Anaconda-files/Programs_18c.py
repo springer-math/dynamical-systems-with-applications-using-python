@@ -21,7 +21,7 @@ for i, row in enumerate(Microbes):
 
 fig2 = plt.figure()
 plt.imshow(Binary,cmap='gray')
-print('There are',int(np.sum(Binary)),'white pixels.')
+print('There are {:,} white pixels'.format(int(np.sum(Binary))))
 
 blobs = np.where(Binary>0.5, 1, 0)
 labels, no_objects = ndimage.label(blobs)
