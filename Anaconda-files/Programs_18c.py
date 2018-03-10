@@ -2,7 +2,7 @@
 # See Figures 18.3 and 18.4.
 
 import matplotlib.pyplot as plt
-import skimage.io as io
+from skimage import io
 import numpy as np
 from skimage.measure import regionprops
 from scipy import ndimage
