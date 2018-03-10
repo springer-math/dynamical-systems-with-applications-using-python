@@ -4,7 +4,7 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
-data=np.loadtxt("/Users/sladmin/Documents/Python Programs/BookPrograms/housing.txt")
+data=np.loadtxt("housing.txt")
 
 numdatas=4         # Using 4 columns from data in this case.
 numPatterns=506;
@@ -20,9 +20,9 @@ X=np.c_[np.ones(numPatterns),X]
 
 tmean=(max(t)+min(t))/2
 tstd=(max(t)-min(t))/2
-t=(t-tmean)/tstd     
-  
-w=0.1*np.random.random(numdatas)  
+t=(t-tmean)/tstd
+
+w=0.1*np.random.random(numdatas)
 y1=np.tanh(X.dot(w))
 e1=t-y1
 mse=np.var(e1)
@@ -41,10 +41,10 @@ for m in range(numEpochs):
         ws2.append([k,np.array(w[1]).tolist()])
         ws3.append([k,np.array(w[2]).tolist()])
         ws4.append([k,np.array(w[3]).tolist()])
-        
-              
+
+
 ws1=np.array(ws1);ws2=np.array(ws2);
-ws3=np.array(ws3);ws4=np.array(ws4)        
+ws3=np.array(ws3);ws4=np.array(ws4)
 plt.plot(ws1[:,0],ws1[:,1],'k.',markersize=0.1)
 plt.plot(ws2[:,0],ws2[:,1],'g.',markersize=0.1)
 plt.plot(ws3[:,0],ws3[:,1],'b.',markersize=0.1)
