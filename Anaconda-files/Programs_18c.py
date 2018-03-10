@@ -10,7 +10,7 @@ from skimage import feature
 from skimage.color import rgb2gray
 
 centroids=[]
-Microbes=io.imread("/Users/sladmin/Documents/Python Programs/BookPrograms/Microbes.png")
+Microbes=io.imread("Microbes.png")
 fig1 = plt.figure()
 plt.imshow(Microbes,cmap='gray',interpolation='nearest')
 Binary=np.zeros((959,1379))
@@ -23,7 +23,7 @@ for i in range(959):
         else:
             Binary[i,j]=0
 
-fig2 = plt.figure()                 
+fig2 = plt.figure()
 plt.imshow(Binary,cmap='gray')
 print('There are',int(np.sum(Binary)),'white pixels.')
 
