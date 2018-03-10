@@ -26,7 +26,7 @@ print('There are {:,} white pixels'.format(int(np.sum(Binary))))
 blobs = np.where(Binary>0.5, 1, 0)
 labels, no_objects = ndimage.label(blobs)
 props = regionprops(blobs)
-print('There are',no_objects,'clusters of cells')
+print('There are {:,} clusters of cells:'.format(no_objects))
 
 fig3 = plt.figure()
 edges=feature.canny(Binary,sigma=2,low_threshold=0.5)
