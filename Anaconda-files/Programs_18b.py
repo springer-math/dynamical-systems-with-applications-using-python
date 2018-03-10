@@ -17,8 +17,6 @@ for i in range(767):
     for j in range(1023):
         if face[i,j][0]>180 and face[i,j][1]>180 and face[i,j][2]>180:
             WhitePixels[i,j]=1
-        else:
-            WhitePixels[i,j]=0
 
 fig2 = plt.figure()
 plt.imshow(WhitePixels,cmap='gray')
