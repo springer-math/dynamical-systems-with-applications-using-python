@@ -29,5 +29,5 @@ for i in range(Num_pts):
 
 fig, ax=plt.subplots(figsize=(8,8))
 plt.imshow(Fern[::-1,:], cmap=cm.Greens)
-plt.show()
 ax.axis('off')
+plt.show()
