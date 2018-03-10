@@ -34,9 +34,10 @@ p1=1/9;p2=8/9;
 k=500;
 s=np.arange(500)
 x=(s*np.log(p1)+(k-s)*np.log(p2))/(k*np.log(1/3))
-f=-(np.log(scipy.misc.comb(k,s)))/(k*np.log(1/3)) 
-plt.subplot(3,1,3)  
+f=-(np.log(scipy.misc.comb(k,s)))/(k*np.log(1/3))
+plt.subplot(3,1,3)
 plt.plot(x,f)
 plt.xlabel(r'$\alpha$',fontsize=15)
 plt.ylabel(r'$f(\alpha)$',fontsize=15)
 plt.tick_params(labelsize=15)
+plt.show()
