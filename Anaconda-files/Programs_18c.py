@@ -11,14 +11,13 @@ from skimage import feature
 Microbes=io.imread("Microbes.png")
 fig1 = plt.figure()
 plt.imshow(Microbes,cmap='gray',interpolation='nearest')
-Binary=np.zeros((959,1379))
+width, height, _ = Microbes.shape
+Binary = np.zeros((width, height))
 
-for i in range(959):
-    for j in range(1379):
-        if Microbes[i,j][0]>80:
-            Binary[i,j]=1
-        else:
-            Binary[i,j]=0
+for i, row in enumerate(Microbes):
+    for j, pixel in enumerate(row):
+        if pixel[0] > 80:
+            Binary[i, j] = 1
 
 fig2 = plt.figure()
 plt.imshow(Binary,cmap='gray')
