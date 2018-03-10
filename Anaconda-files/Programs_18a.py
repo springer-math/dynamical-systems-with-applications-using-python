@@ -18,8 +18,8 @@ for k in range(1,9,1):
             M[i+2**k][j]=p3*p[i][j]
             M[i+2**k][j+2**k]=p4*p[i][j]
     p=M
-        
-# Plot the multifractal image. 
+
+# Plot the multifractal image.
 M = exposure.adjust_gamma(M, 0.2)
 plt.imshow(M,cmap='gray',interpolation='nearest')
 
@@ -28,3 +28,4 @@ im = np.array(M, dtype='float64')
 im = exposure.rescale_intensity(im, out_range='float')
 im = img_as_uint(im)
 io.imsave('Multifractal.png',im)
+io.show()
