@@ -5,4 +5,4 @@ from sympy.abc import n
 x=Function('x');
 f=x(n+2)-x(n+1)-6*x(n);
 sol=rsolve(f,x(n),{x(0):1,x(1):2});
-print('x_n=',sol)
+print('x_n = {}'.format(sol))
