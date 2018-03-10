@@ -6,7 +6,7 @@ import skimage.io as io
 from skimage.filters import roberts, sobel
 from skimage.color import rgb2gray
 
-lena=io.imread("/Users/sladmin/Documents/Python Programs/BookPrograms/Lena.jpg")
+lena=io.imread("lena.jpg")
 lena = rgb2gray(lena)
 
 edge_roberts = roberts(lena)
