@@ -19,6 +19,6 @@ for i in range(490):
      area=np.multiply(vec1[0],vec2[1])-np.multiply(vec1[1],vec2[0])
      h1=np.log(lengthv1)/i
      h2=np.log(area)/i-h1
-              
-print('h_1=',h1)
-print('h_2=',h2) 
+
+print('h_1 = {}'.format(h1))
+print('h_2 = {}'.format(h2))
