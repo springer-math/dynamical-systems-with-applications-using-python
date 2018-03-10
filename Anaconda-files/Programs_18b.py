@@ -8,17 +8,19 @@ face = misc.face()
 
 fig1 = plt.figure()
 plt.imshow(face)
+width, height, _ = face.shape
 
-print('Dimensions=',face.shape)     # Dimensions ofimage.
-print('RGB value=',face[100,100])  # RGB values of pixel.
-WhitePixels=np.zeros((767,1023))    # The number of white pixels.
+print('Image dimensions: {}x{}'.format(width, height))
+WhitePixels = np.zeros((width, height))
 
-for i in range(767):
-    for j in range(1023):
-        if face[i,j][0]>180 and face[i,j][1]>180 and face[i,j][2]>180:
-            WhitePixels[i,j]=1
+def white_pixel(pixel, threshold):
+    return 1 if all(value > threshold for value in pixel) else 0
+
+for i, row in enumerate(face):
+    for j, pixel in enumerate(row):
+        WhitePixels[i, j] = white_pixel(pixel, threshold=180)
 
 fig2 = plt.figure()
 plt.imshow(WhitePixels,cmap='gray')
-print('There are',int(np.sum(WhitePixels)),'white pixels.')
+print('There are {:,} white pixels'.format(int(np.sum(WhitePixels))))
 plt.show()
