@@ -18,7 +18,6 @@ plt.xlabel("Time (ms)",fontsize=15)
 plt.ylabel("y(t)",fontsize=15)
 plt.tick_params(labelsize=15)
 
-
 fig2 = plt.figure()
 yf=fft(y)
 xf=np.linspace(0,1/(2*T),Ns//2)
