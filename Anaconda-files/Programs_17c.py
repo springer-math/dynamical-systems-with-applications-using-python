@@ -24,10 +24,10 @@ for i in range(Num_pts):
     # Map (x,y) to pixel coordinates.
     # Center the image.
 
-    cx, cy = width / 2 + x * width / 10, y * height / 10
+    cx, cy = int(width / 2 + x * width / 10), int(y * height / 10)
     Fern[cy, cx] = 1
 
-fig, ax=plt.subplots(figsize=(8,8))   
+fig, ax=plt.subplots(figsize=(8,8))
 plt.imshow(Fern[::-1,:], cmap=cm.Greens)
 plt.show()
 ax.axis('off')
