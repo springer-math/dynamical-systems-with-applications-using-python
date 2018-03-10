@@ -23,3 +23,4 @@ for i in range(767):
 fig2 = plt.figure()
 plt.imshow(WhitePixels,cmap='gray')
 print('There are',int(np.sum(WhitePixels)),'white pixels.')
+plt.show()
