@@ -23,8 +23,9 @@ ftimage=np.abs(ftimage)
 fftimage=np.log(ftimage)
 fftimage=rgb2gray(fftimage)
 pylab.imshow(fftimage,cmap='gray')
+plt.show()
 
-
+""" ???
 # Apply a crude filter.
 fftimage[300:400, 300:400] = 0
 fig3 = plt.figure()
@@ -33,6 +34,7 @@ pylab.imshow(fftimage,cmap='gray')
 fig4=plt.figure()
 # Finally, take the inverse transform and show the blurred image
 imagep = np.fft.ifft2(fftimage)
-imagep=image.formarray(imagep) 
+imagep=image.formarray(imagep)
 imagep.show()
 #pylab.imshow(np.abs(imagep),cmap='gray')
+"""
