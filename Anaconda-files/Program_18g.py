@@ -6,18 +6,17 @@ import skimage.io as io
 from skimage.filters import roberts, sobel
 from skimage.color import rgb2gray
 
-lena=io.imread("lena.jpg")
-lena = rgb2gray(lena)
+lena = rgb2gray(io.imread('lena.jpg'))
 
 edge_roberts = roberts(lena)
 edge_sobel = sobel(lena)
 
-fig,ax=plt.subplots(ncols=2,sharex=True,sharey=True,figsize=(8,4))
+fig, ax = plt.subplots(ncols=2, sharex=True, sharey=True, figsize=(8, 4))
 
-ax[0].imshow(edge_roberts,cmap=plt.cm.gray)
+ax[0].imshow(edge_roberts, cmap=plt.cm.gray)
 ax[0].set_title('Roberts Edge Detection')
 
-ax[1].imshow(edge_sobel,cmap=plt.cm.gray)
+ax[1].imshow(edge_sobel, cmap=plt.cm.gray)
 ax[1].set_title('Sobel Edge Detection')
 
 for a in ax:

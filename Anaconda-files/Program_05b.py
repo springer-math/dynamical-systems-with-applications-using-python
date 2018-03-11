@@ -6,15 +6,16 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 def dx_dt(x,t):
-    return [x[1],0.01*x[0]**3-x[0]]
-x0=[1,0]
-ts=np.linspace(0,100,2000)
-xs=odeint(dx_dt,x0,ts)
-xN=xs[:,0]
+    return [x[1], 0.01 * x[0] ** 3 - x[0]]
 
-xpert0=np.cos(ts)
-plt.plot(ts,xN-xpert0)
-plt.xlabel("t")
-plt.ylabel("x")
+x0 = [1, 0]
+ts = np.linspace(0, 100, 2000)
+xs = odeint(dx_dt,x0,ts)
+xN = xs[:, 0]
+
+xpert0 = np.cos(ts)
+plt.plot(ts, xN - xpert0)
+plt.xlabel('t')
+plt.ylabel('x')
 
 plt.show()

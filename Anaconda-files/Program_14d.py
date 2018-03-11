@@ -1,34 +1,35 @@
-# Programs 14d: Iteration of the Henon Map.
+# Programs 14d: Iteration of the henon Map.
 # See Figure 14.23.
 
 import matplotlib.pyplot as plt
 # Parameters
-a=1.2;b=0.4;            # Set a=1 to get Figure 14.23(a).
-Num_iterations=10000;
+a = 1.2  # Set a=1 to get Figure 14.23(a).
+b = 0.4
+num_iterations = 10000
 
-def Henon(X):
+def henon(X):
     x,y=X
     xn=1-a*x*x+y
     yn=b*x
     return xn,yn
 
 # Ignore the first 100 iterates.
-X0=[(1-b)/2,(1-b)/2]
-X,Y=[],[]
+X0 = [(1 - b) / 2, (1 - b) / 2]
+X, Y = [], []
 for i in range(100):
-    xn,yn=Henon(X0)
-    X,Y=X+[xn],Y+[yn]
-    X0=[xn,yn]
-    
-X,Y=[],[]
-for i in range(Num_iterations):
-    xn,yn=Henon(X0)
-    X,Y=X+[xn],Y+[yn]
-    X0=[xn,yn]
+    xn, yn = henon(X0)
+    X, Y = X + [xn], Y + [yn]
+    X0 = [xn, yn]
 
-fig, ax = plt.subplots(figsize=(8,8))
-ax.scatter(X,Y,color='blue',s=0.1)
-plt.xlabel("x",fontsize=15)
-plt.ylabel("y",fontsize=15)
+X, Y = [], []
+for i in range(num_iterations):
+    xn, yn = henon(X0)
+    X, Y = X + [xn], Y + [yn]
+    X0 = [xn, yn]
+
+fig, ax = plt.subplots(figsize=(8, 8))
+ax.scatter(X, Y, color='blue', s=0.1)
+plt.xlabel('x', fontsize=15)
+plt.ylabel('y', fontsize=15)
 plt.tick_params(labelsize=15)
 plt.show()

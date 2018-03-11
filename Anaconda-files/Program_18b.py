@@ -4,6 +4,7 @@
 from scipy import misc
 import matplotlib.pyplot as plt
 import numpy as np
+
 face = misc.face()
 
 fig1 = plt.figure()
@@ -11,16 +12,16 @@ plt.imshow(face)
 width, height, _ = face.shape
 
 print('Image dimensions: {}x{}'.format(width, height))
-WhitePixels = np.zeros((width, height))
+white_pixels = np.zeros((width, height))
 
-def white_pixel(pixel, threshold):
+def white_pixel_filter(pixel, threshold):
     return 1 if all(value > threshold for value in pixel) else 0
 
 for i, row in enumerate(face):
     for j, pixel in enumerate(row):
-        WhitePixels[i, j] = white_pixel(pixel, threshold=180)
+        white_pixels[i, j] = white_pixel_filter(pixel, threshold=180)
 
 fig2 = plt.figure()
-plt.imshow(WhitePixels,cmap='gray')
-print('There are {:,} white pixels'.format(int(np.sum(WhitePixels))))
+plt.imshow(white_pixels, cmap='gray')
+print('There are {:,} white pixels'.format(int(np.sum(white_pixels))))
 plt.show()

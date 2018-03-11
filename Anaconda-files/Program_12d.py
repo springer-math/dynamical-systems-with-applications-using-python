@@ -8,8 +8,7 @@ from pydelay import dde23
 tfinal = 10000
 tau = 1000
 
-#the laser equations
-eqns = {
+laser_equations = {
     'E:c': '0.5*(1.0+ii*a)*E*n + K*E(t-tau)',
     'n'  : '(p - n - (1.0 +n) * pow(abs(E),2))/T'
 }
@@ -26,13 +25,13 @@ params = {
 
 noise = { 'E': 'sqrt(0.5*nu*(n+n0)) * (gwn() + ii*gwn())' }
 
-dde = dde23(eqns=eqns, params=params, noise=noise)
+dde = dde23(eqns=laser_equations, params=params, noise=noise)
 dde.set_sim_params(tfinal=tfinal)
 
 # use a dictionary to set the history
 thist = np.linspace(0, tau, tfinal)
-Ehist = np.zeros(len(thist))+1.0
-nhist = np.zeros(len(thist))-0.2
+Ehist = np.zeros(len(thist)) + 1.0
+nhist = np.zeros(len(thist)) - 0.2
 dic = {'t' : thist, 'E': Ehist, 'n': nhist}
 
 # 'useend' is True by default in hist_from_dict and thus the

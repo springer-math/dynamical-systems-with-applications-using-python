@@ -3,27 +3,29 @@
 
 import numpy as np
 import matplotlib.pyplot as plt
-xmin=-2.5;xmax=1;ymin=-1.5;ymax=1.5;
-xrange=xmax-xmin;yrange=ymax-ymin;
 
-def mandelbrot(h,w, Max_it=50):
-     y,x = np.ogrid[ ymin:ymax:h*1j, xmin:xmax:w*1j ]
-     c = x+y*1j
+xmin, xmax = -2.5, 1
+ymin, ymax = -1.5, 1.5
+xrange, yrange = xmax-xmin, ymax-ymin
+
+def mandelbrot(h,w, max_iter=50):
+     y, x = np.ogrid[ymin:ymax:h*1j, xmin:xmax:w*1j]
+     c = x + y*1j
      z = c
-     Div_iter = Max_it + np.zeros(z.shape, dtype=int)
+     div_iter = max_iter + np.zeros(z.shape, dtype=int)
 
-     for i in range(Max_it):
+     for i in range(max_iter):
          z = z**2 + c
-         Div_test = z*np.conj(z) > 2**2            
-         Div_num = Div_test & (Div_iter==Max_it)  
-         Div_iter[Div_num] = i                 
-         z[Div_test] = 2                        
+         div_test = z*np.conj(z) > 2**2
+         div_num = div_test & (div_iter == max_iter)
+         div_iter[div_num] = i
+         z[div_test] = 2
 
-     return Div_iter                 # Number of iterations to diverge.
+     return div_iter  # Number of iterations to diverge
 
-scale=1000                           # Amount of detail in the set.
+scale = 1000  # Amount of detail in the set
 
-# Set the tick labels to the Argand plane.
+# Set the tick labels to the Argand plane
 fig, ax = plt.subplots()
 ax.imshow(mandelbrot(scale,scale))
 xtick_labels = np.linspace(xmin, xmax, xrange / 0.5)

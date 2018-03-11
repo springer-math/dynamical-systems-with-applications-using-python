@@ -5,31 +5,26 @@
 import pylab as pl
 from pydelay import dde23
 
-# define the equations
 eqns = {
-    'x' : '2 * x(t-tau) / (1.0 + pow(x(t-tau),p)) - x'
-    }
+    'x' : '2 * x(t-tau) / (1.0 + pow(x(t-tau), p)) - x'
+}
 
-#define the parameters
 params = {
     'tau': 2,
     'p'  : 10
-    }
+}
 
-# Initialise the solver
 dde = dde23(eqns=eqns, params=params)
 
-# set the simulation parameters
 # (solve from t=0 to t=1000 and limit the maximum step size to 1.0)
 dde.set_sim_params(tfinal=1000, dtmax=1.0)
 
-# set the history of to the constant function 0.5 (using a python lambda function)
+# set the history to the constant function 0.5 (using a python lambda function)
 histfunc = {
     'x': lambda t: 0.5
-    }
+}
 dde.hist_from_funcs(histfunc, 51)
 
-# run the simulator
 dde.run()
 
 # Make a plot of x(t) vs x(t-tau):
