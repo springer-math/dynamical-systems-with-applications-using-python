@@ -39,3 +39,5 @@ ax1.set_ylim(-1, 1)
 ax1.set_xlabel('$\mu$', fontsize=15)
 ax1.legend(loc='best')
 ax1.set_title('Logistic map versus Lyapunov exponent', fontsize=15)
+
+plt.show()
