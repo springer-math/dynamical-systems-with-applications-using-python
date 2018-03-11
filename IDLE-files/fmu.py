@@ -7,8 +7,5 @@ Created on Tue Jan 23 09:23:47 2018
 
 @author: sladmin
 """
-def fmu(mu,x):
+def fmu(mu, x):
     return mu*x*(1-x)
-
-
-
