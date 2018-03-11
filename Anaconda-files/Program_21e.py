@@ -13,8 +13,8 @@ t=np.arange(0.0, 40.0, 0.01)
 # Set up the ODEs, see equations (21.3)
 def memristor(X, t):
     w = X
-    dwdt = (eta * (1 - (2*w - 1) ** (2*p)) * np.sin(2*np.pi * t/T))
-           / (Roff - (Roff - Ron) * w)
+    dwdt = ((eta * (1 - (2*w - 1) ** (2*p)) * np.sin(2*np.pi * t/T))
+           / (Roff - (Roff - Ron) * w))
     return dwdt
 
 X = odeint(memristor, [w0], t, rtol=1e-12)
