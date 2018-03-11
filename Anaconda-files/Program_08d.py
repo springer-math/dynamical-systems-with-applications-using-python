@@ -1,4 +1,4 @@
-# Programs 8d: Animation of a Chua circuit bifurcation.
+# Program 08d: Animation of a Chua circuit bifurcation.
 # You can watch a YouTube animation on the web.
 # Search for Chua circuit animated bifurcation.
 

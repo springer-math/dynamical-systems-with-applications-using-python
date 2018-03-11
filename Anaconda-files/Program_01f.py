@@ -1,4 +1,4 @@
-# Program 1f: Parametric curve in 3D.
+# Program 01f: Parametric curve in 3D.
 # See Figure 1.17.
 
 import numpy as np

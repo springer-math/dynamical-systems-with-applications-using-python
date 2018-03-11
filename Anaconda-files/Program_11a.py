@@ -1,4 +1,4 @@
-# Programs 11a: Animation of a limit cycle for a Lienard system.
+# Program 11a: Animation of a limit cycle for a Lienard system.
 # See Figure 11.12.
 
 from matplotlib import pyplot as plt

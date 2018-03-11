@@ -1,4 +1,4 @@
-# Programs 14c: Lyapunov exponents of the logistic map.
+# Program 14c: Lyapunov exponents of the logistic map.
 # See Figure 14.17.
 
 import numpy as np

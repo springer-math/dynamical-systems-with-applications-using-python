@@ -1,4 +1,4 @@
-# Program 1b: A program that solves a second order ODE.
+# Program 01b: A program that solves a second order ODE.
 
 from sympy import Function, Eq, dsolve, symbols, exp
 

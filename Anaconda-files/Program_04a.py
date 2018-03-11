@@ -1,4 +1,4 @@
-# Program 4a: Holling-Tanner model. See Figures 4.5 and 4.6.
+# Program 04a: Holling-Tanner model. See Figures 4.5 and 4.6.
 # Time series and phase portrait for a predator-prey system.
 import numpy as np
 from scipy import integrate

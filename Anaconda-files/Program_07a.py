@@ -1,4 +1,4 @@
-# Program 7a: Animation of a simple curve. Saddle-node bifurcation.
+# Program 07a: Animation of a simple curve. Saddle-node bifurcation.
 # See Figure 7.2.
 # Animation of mu-x**2, as mu increases from mu=-3 to mu=3.
 # Type - %matplotlib qt5 - in Console window.

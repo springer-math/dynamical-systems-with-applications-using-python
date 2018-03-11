@@ -1,4 +1,4 @@
-# Programs 18a: Generating a multifractal image.
+# Program 18a: Generating a multifractal image.
 # Save the image.
 # See Figure 18.1(b).
 

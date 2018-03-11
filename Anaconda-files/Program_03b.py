@@ -1,4 +1,4 @@
-# Program 3b: Nonlinear system, phase portrait with vector plot.
+# Program 03b: Nonlinear system, phase portrait with vector plot.
 # See Figure 3.12.
 
 import matplotlib.pyplot as plt

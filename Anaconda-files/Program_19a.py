@@ -1,4 +1,4 @@
-# Programs 19a: Chaos control in the logistic map.
+# Program 19a: Chaos control in the logistic map.
 # Control to period two.
 # See Figure 19.3(b).
 

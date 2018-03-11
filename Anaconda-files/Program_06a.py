@@ -1,4 +1,4 @@
-# Program 6a: Contour plot. See Figure 6.2(a).
+# Program 06a: Contour plot. See Figure 6.2(a).
 import numpy as np
 import matplotlib.pyplot as plt
 

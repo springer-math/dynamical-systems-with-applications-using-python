@@ -1,6 +1,7 @@
-# Programs 12d: The Lang-Kobayashi DDEs.
+# Program 12d: The Lang-Kobayashi DDEs.
 # See Figure 12.10.
 # pydelay must be on your computer.
+
 import numpy as np
 import pylab as pl
 from pydelay import dde23

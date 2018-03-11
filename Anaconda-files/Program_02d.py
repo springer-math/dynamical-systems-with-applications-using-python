@@ -1,4 +1,4 @@
-# Program 2d : Power series solution of second order ODE.
+# Program 02d : Power series solution of second order ODE.
 # See Example 8.
 from sympy import dsolve, Function, pprint
 from sympy.abc import t

@@ -1,4 +1,4 @@
-# Program 1d: Subplots.
+# Program 01d: Subplots.
 # See Figure 1.15.
 
 import matplotlib.pyplot as plt

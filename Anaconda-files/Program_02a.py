@@ -1,4 +1,4 @@
-# Program 2a: A separabale ODE.
+# Program 02a: A separabale ODE.
 from sympy import symbols, Function, Eq, dsolve
 
 t = symbols('t')

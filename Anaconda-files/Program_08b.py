@@ -1,4 +1,4 @@
-# Program 8b: The Lorenz attractor. See Figure 8.11.
+# Program 08b: The Lorenz attractor. See Figure 8.11.
 # In this case, the odeint numerical solver was used to solve the ODE.
 
 import numpy as np

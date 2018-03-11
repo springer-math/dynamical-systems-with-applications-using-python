@@ -1,4 +1,4 @@
-# Programs 19b: Chaos control in the Henon Map.
+# Program 19b: Chaos control in the Henon Map.
 # See Figure 19.6.
 
 import matplotlib.pyplot as plt

@@ -1,4 +1,4 @@
-# Programs 20a: The generalized delta learning rule.
+# Program 20a: The generalized delta learning rule.
 # See figure 20.7.
 
 import matplotlib.pyplot as plt

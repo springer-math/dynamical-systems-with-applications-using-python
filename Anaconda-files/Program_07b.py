@@ -1,4 +1,5 @@
-# Hopf Bifurcation
+# Program 07b: Hopf Bifurcation
+
 from matplotlib import pyplot as plt
 from matplotlib.animation import ArtistAnimation
 import numpy as np

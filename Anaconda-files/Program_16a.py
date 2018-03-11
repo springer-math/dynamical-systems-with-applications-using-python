@@ -1,4 +1,4 @@
-# Programs 16a: Intersection of implicit curves.
+# Program 16a: Intersection of implicit curves.
 # See Figure 16.10(b).
 
 import numpy as np

@@ -1,4 +1,4 @@
-# Programs 17d: Plot tau curve, D_q curve and f(alpha) curve.
+# Program 17d: Plot tau curve, D_q curve and f(alpha) curve.
 # See Figure 17.16.
 
 import numpy as np

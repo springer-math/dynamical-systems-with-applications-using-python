@@ -1,4 +1,4 @@
-# Programs 10g: Homoclinic Bifurcation. See Figure 10.3.
+# Program 10g: Homoclinic Bifurcation. See Figure 10.3.
 from matplotlib import pyplot as plt
 from matplotlib.animation import ArtistAnimation
 import numpy as np

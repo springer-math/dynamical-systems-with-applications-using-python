@@ -1,4 +1,4 @@
-# Programs 17c: Barnsley's fern.
+# Program 17c: Barnsley's fern.
 # See Figure 17.7.
 import numpy as np
 import matplotlib.pyplot as plt

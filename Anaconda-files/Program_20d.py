@@ -1,4 +1,4 @@
-# Programs 20d: Bifurcation diagram of the neuromodule.
+# Program 20d: Bifurcation diagram of the neuromodule.
 # See Figure 20.16.
 
 from matplotlib import pyplot as plt

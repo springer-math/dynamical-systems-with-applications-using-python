@@ -1,4 +1,4 @@
-# Programs 10a: Lienard Lyapunov quantities
+# Program 10a: Lienard Lyapunov quantities
 
 from sympy import symbols,  solve
 

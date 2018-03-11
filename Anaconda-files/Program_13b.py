@@ -1,4 +1,4 @@
-# Programs_13b: A second order recurrence relation.
+# Program 13b: A second order recurrence relation.
 # See Example 2.
 
 from sympy import Function, rsolve

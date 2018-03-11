@@ -1,4 +1,4 @@
-# Program 1c: Two curves on one plot.
+# Program 01c: Two curves on one plot.
 # See Figure 1.14.
 
 import matplotlib.pyplot as plt

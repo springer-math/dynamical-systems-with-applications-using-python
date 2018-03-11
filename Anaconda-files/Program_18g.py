@@ -1,4 +1,4 @@
-# Programs 18g: Edge detection on Lena image.
+# Program 18g: Edge detection on Lena image.
 # See Figure 18.8.
 
 import matplotlib.pyplot as plt

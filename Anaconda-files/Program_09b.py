@@ -1,4 +1,4 @@
-# Program 9b: Hamiltonian with two degrees of freedom.
+# Program 09b: Hamiltonian with two degrees of freedom.
 # See Figure 9.5(e).
 
 import numpy as np

@@ -1,4 +1,4 @@
-# Programs 12c: The Mackey-Glass DDE.
+# Program 12c: The Mackey-Glass DDE.
 # See Figure 12.5(a).
 # pydelay must be on your computer.
 

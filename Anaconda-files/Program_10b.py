@@ -1,4 +1,4 @@
-# Programs 10b: Polynomial Reduce. See Example 4.
+# Program 10b: Polynomial Reduce. See Example 4.
 
 from sympy import reduced
 from sympy.abc import x, y, z

@@ -1,4 +1,4 @@
-# Programs 15a: Plot points for the julia set.
+# Program 15a: Plot points for the julia set.
 # See Figure 15.1.
 
 from matplotlib import pyplot as plt

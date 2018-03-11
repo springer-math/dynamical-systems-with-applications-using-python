@@ -1,4 +1,4 @@
-# Programs 16c: Bifurcation diagram of the Ikeda map.
+# Program 16c: Bifurcation diagram of the Ikeda map.
 # See Figure 16.16(d).
 
 from matplotlib import pyplot as plt

@@ -1,4 +1,4 @@
-# Programs_13c: The Leslie matrix. See Example 4.
+# Program 13c: The Leslie matrix. See Example 4.
 # Compute the population distribution after 50 years.
 # Determine the eigenvalues and eigenvectors of a Leslie matrix.
 

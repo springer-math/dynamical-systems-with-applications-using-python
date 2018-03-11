@@ -1,4 +1,4 @@
-# Program 8a: The Rossler chaotic attractor. See Fig. 8.10(a).
+# Program 08a: The Rossler chaotic attractor. See Fig. 8.10(a).
 # In this case, iteration is used to solve the ODEs.
 
 import numpy as np

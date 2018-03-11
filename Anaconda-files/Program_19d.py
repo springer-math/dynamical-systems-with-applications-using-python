@@ -1,4 +1,4 @@
-# Programs 19d: Generalized synchronization.
+# Program 19d: Generalized synchronization.
 # See Figure 19.8(a).
 
 import numpy as np

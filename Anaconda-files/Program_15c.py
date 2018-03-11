@@ -1,4 +1,4 @@
-# Programs 15c: The Mandelbrot set.
+# Program 15c: The Mandelbrot set.
 # See Figure 15.3.
 
 import numpy as np

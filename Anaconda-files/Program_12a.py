@@ -1,4 +1,4 @@
-# Programs 12a: The method of steps.
+# Program 12a: The method of steps.
 # See Figure 12.1.
 
 from sympy import integrate,symbols

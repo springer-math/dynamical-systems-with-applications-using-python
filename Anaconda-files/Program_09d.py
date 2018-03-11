@@ -1,4 +1,4 @@
-# Programs 9d: Bifurcation diagram of the duffing equation.
+# Program 09d: Bifurcation diagram of the duffing equation.
 # See Figure 9.14.
 
 import matplotlib.pyplot as plt

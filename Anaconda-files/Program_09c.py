@@ -1,4 +1,4 @@
-# Program 9c: Phase portrait and Poincare section of a nonautonomous ODE.
+# Program 09c: Phase portrait and Poincare section of a nonautonomous ODE.
 # See Figure 9.11(b).
 
 import matplotlib.pyplot as plt

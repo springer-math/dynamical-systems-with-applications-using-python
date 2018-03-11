@@ -1,4 +1,4 @@
-# Program 8c: The Belousov-Zhabotinski Reaction. See Figure 8.16.
+# Program 08c: The Belousov-Zhabotinski Reaction. See Figure 8.16.
 # Plotting time series for a 3-dimensional ODE.
 
 import numpy as np

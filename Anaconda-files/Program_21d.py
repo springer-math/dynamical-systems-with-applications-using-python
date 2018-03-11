@@ -1,4 +1,4 @@
-# Programs 21d: Animation of a JJ limit cycle bifurcation.
+# Program 21d: Animation of a JJ limit cycle bifurcation.
 # See Figure 21.9.
 
 from matplotlib import pyplot as plt

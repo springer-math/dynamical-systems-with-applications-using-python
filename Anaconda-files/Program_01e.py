@@ -1,4 +1,4 @@
-# Program 1e: Surface and contour plots.
+# Program 01e: Surface and contour plots.
 # See Figure 1.16.
 
 import numpy as np

@@ -1,4 +1,4 @@
-# Program 1a: A program that solves a simple ODE.
+# Program 01a: A program that solves a simple ODE.
 # See Example 10.
 
 from sympy import dsolve, Eq, symbols, Function

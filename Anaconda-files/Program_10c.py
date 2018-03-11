@@ -1,4 +1,4 @@
-# Programs 10c: The S-Polynomial. See Example 5.
+# Program 10c: The S-Polynomial. See Example 5.
 from sympy import expand, LM, LT, lcm
 from sympy.abc import x, y, z
 

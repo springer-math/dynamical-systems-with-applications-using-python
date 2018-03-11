@@ -1,4 +1,4 @@
-# Programs 20b: The discrete Hopfield network.
+# Program 20b: The discrete Hopfield network.
 # See Example 5.
 
 from sympy import Matrix, eye

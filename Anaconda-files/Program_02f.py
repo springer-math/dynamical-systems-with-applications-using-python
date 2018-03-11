@@ -1,4 +1,4 @@
-# Program 2f: A linear first order ODE.
+# Program 02f: A linear first order ODE.
 from sympy import Function, dsolve, Eq, symbols, sin
 
 t = symbols('t');

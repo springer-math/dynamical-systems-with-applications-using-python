@@ -1,4 +1,4 @@
- # Program 5b: Error between xN and x0. See Figure 5.9.
+ # Program 05b: Error between xN and x0. See Figure 5.9.
 # Error between one term solution and numerical solution.
 
 from scipy.integrate import odeint

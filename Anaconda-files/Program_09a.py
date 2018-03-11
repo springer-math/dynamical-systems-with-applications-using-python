@@ -1,4 +1,4 @@
-# Program 9a: Poincare first return map.
+# Program 09a: Poincare first return map.
 # See Figure 9.2.
 
 import matplotlib.pyplot as plt

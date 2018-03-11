@@ -1,4 +1,4 @@
-# Program 5c: The Lindstedt-Poincare Method
+# Program 05c: The Lindstedt-Poincare Method
 # Deriving the order epsilon equations.
 # See Example 9.
 

@@ -1,4 +1,4 @@
-# Programs 17a: Plotting the Koch curve.
+# Program 17a: Plotting the Koch curve.
 # See Figure 17.2.
 
 import numpy as np

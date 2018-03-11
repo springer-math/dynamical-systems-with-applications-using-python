@@ -1,4 +1,4 @@
-# Programs 21a: The Hodgkin-Huxley Equations.
+# Program 21a: The Hodgkin-Huxley Equations.
 # See Figures 21.2 and 21.3.
 
 import numpy as np

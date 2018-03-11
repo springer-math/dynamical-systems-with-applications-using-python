@@ -1,4 +1,4 @@
-# Programs 20c: Iteration of the minimal chaotic neuromodule.
+# Program 20c: Iteration of the minimal chaotic neuromodule.
 # See Figure 20.13.
 
 import matplotlib.pyplot as plt

@@ -1,4 +1,4 @@
-# Program 2e: Numerical and truncated series solutions.
+# Program 02e: Numerical and truncated series solutions.
 # See Figure 2.6.
 from scipy.integrate import odeint
 import matplotlib.pyplot as plt

@@ -1,4 +1,4 @@
-# Programs 17b: The chaos game and Sierpinski triangle.
+# Program 17b: The chaos game and Sierpinski triangle.
 # See Figure 17.6.
 
 import matplotlib.pyplot as plt

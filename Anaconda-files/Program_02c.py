@@ -1,4 +1,4 @@
-# Program 2c : Power series solution first order ODE.
+# Program 02c : Power series solution first order ODE.
 # See Example 7.
 
 from sympy import dsolve, Function, pprint

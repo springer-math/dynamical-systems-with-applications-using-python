@@ -1,4 +1,4 @@
-# Program 7c: Animation of a SNIC bifurcation.
+# Program 07c: Animation of a SNIC bifurcation.
 # See Figure 7.12.
 
 from matplotlib import pyplot as plt

@@ -1,4 +1,4 @@
-# Programs 18f: Fourier transform.
+# Program 18f: Fourier transform.
 # See Figure 18.7.
 
 import numpy as np

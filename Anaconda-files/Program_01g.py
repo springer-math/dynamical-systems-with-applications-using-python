@@ -1,4 +1,4 @@
-# Program 1g: Animation of a simple curve.
+# Program 01g: Animation of a simple curve.
 # Hit the green play button (Run file (F5)).
 
 # Run %matplotlib qt5 in IPython console before animating.

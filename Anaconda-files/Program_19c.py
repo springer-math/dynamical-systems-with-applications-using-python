@@ -1,4 +1,4 @@
-# Programs 19c: Synchronization between two Lorenz systems.
+# Program 19c: Synchronization between two Lorenz systems.
 # See Figure 19.7(b).
 
 import numpy as np

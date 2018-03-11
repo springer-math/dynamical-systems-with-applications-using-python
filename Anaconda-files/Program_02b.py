@@ -1,4 +1,4 @@
-# Program 2b: the logistic equation.
+# Program 02b: the logistic equation.
 from sympy import symbols, Function, Eq, dsolve
 
 t = symbols('t');

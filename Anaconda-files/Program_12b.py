@@ -1,4 +1,4 @@
-# Programs 12b: Solution of a DDE using the method of steps.
+# Program 12b: Solution of a DDE using the method of steps.
 # See Figure 12.1. The plot is a piecewise function.
 # The lambda t: functions are computed in Programs 12a.
 

@@ -1,4 +1,4 @@
-# Program 2g: A second order ODE.
+# Program 02g: A second order ODE.
 from sympy import symbols, dsolve, Function, Eq, sin
 
 t = symbols('t')

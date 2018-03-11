@@ -1,4 +1,4 @@
-# Programs 15d: Plotting a Newton fractal.
+# Program 15d: Plotting a Newton fractal.
 # See Figure 15.7.
 
 from PIL import Image

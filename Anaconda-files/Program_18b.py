@@ -1,4 +1,4 @@
-# Programs_18d: Color picture of a raccoon.
+# Programs 18d: Color picture of a raccoon.
 # See Figure 18.2.
 
 from scipy import misc

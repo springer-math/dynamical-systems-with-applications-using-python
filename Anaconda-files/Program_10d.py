@@ -1,4 +1,4 @@
-# Programs 10d: Computing Groebner bases. See Example 6.
+# Program 10d: Computing Groebner bases. See Example 6.
 
 from sympy import groebner
 from sympy.abc import x, y

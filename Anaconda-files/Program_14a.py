@@ -1,4 +1,4 @@
-# Programs_14a: Graphical iteration of the tent map.
+# Programs 14a: Graphical iteration of the tent map.
 # See Figure 14.7(a).
 
 from sympy import Rational

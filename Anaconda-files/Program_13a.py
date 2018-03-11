@@ -1,4 +1,4 @@
-# Programs_13a
+# Program 13a
 
 from sympy import Function, rsolve
 from sympy.abc import n

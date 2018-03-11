@@ -1,4 +1,4 @@
-# Programs 18d: Fast Fourier transform of a noisy signal.
+# Program 18d: Fast Fourier transform of a noisy signal.
 # See Figure 18.5.
 
 import numpy as np

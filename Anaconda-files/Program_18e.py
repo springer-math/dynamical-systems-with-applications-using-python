@@ -1,4 +1,4 @@
-# Programs 18e: Iterative map and power spectra.
+# Program 18e: Iterative map and power spectra.
 # See Figure 18.6.
 
 import matplotlib.pyplot as plt

@@ -1,4 +1,4 @@
-# Program 6b: Surface plot of Hamiltonian. See Figure 6.2(b).
+# Program 06b: Surface plot of Hamiltonian. See Figure 6.2(b).
 import numpy as np
 import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D

@@ -1,4 +1,4 @@
-# Programs 18c: Statistical Analysis on microbes_img.png.
+# Program 18c: Statistical Analysis on microbes_img.png.
 # See Figures 18.3 and 18.4.
 
 import matplotlib.pyplot as plt

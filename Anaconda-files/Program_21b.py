@@ -1,4 +1,4 @@
-# Programs 21b: The Fitzhugh-Nagumo Half-Adder.
+# Program 21b: The Fitzhugh-Nagumo Half-Adder.
 # See Figure 21.6.
 
 import numpy as np

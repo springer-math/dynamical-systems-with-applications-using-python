@@ -1,4 +1,4 @@
-# Programs 14e: Lyapunov quantities of the Henon map.
+# Program 14e: Lyapunov quantities of the Henon map.
 # See Exercise 8(c).
 
 import numpy as np

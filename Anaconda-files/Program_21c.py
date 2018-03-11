@@ -1,4 +1,4 @@
-# Programs 21c: Josephson junction limit cycle.
+# Program 21c: Josephson junction limit cycle.
 # See Figure 21.9.
 
 from matplotlib import pyplot as plt

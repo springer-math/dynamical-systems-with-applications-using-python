@@ -1,4 +1,4 @@
-# Program 3c: Finding critical points.
+# Program 03c: Finding critical points.
 # See Example 9.
 import sympy as sm
 

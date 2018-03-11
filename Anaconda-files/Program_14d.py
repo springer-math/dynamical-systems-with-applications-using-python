@@ -1,4 +1,4 @@
-# Programs 14d: Iteration of the henon Map.
+# Program 14d: Iteration of the henon Map.
 # See Figure 14.23.
 
 import matplotlib.pyplot as plt

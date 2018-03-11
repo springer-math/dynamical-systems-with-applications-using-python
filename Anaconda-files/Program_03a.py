@@ -1,4 +1,4 @@
-# Program 3a: Phase portrait of a linear system.
+# Program 03a: Phase portrait of a linear system.
 # See Figure 3.8(a).
 
 import matplotlib.pyplot as plt

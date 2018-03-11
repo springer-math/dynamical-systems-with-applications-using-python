@@ -1,4 +1,4 @@
-# Programs 10e: Computing Groebner bases. See Example 7.
+# Program 10e: Computing Groebner bases. See Example 7.
 # Reducing the first five Lyapunov quantities of a Lienard system.
 
 from sympy import groebner, symbols

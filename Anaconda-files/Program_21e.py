@@ -1,4 +1,4 @@
-# Programs 21e: Pinched hysteresis in a memristor.
+# Program 21e: Pinched hysteresis in a memristor.
 # See Figure 21.12.
 
 import numpy as np
