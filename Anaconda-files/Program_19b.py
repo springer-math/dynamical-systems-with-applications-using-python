@@ -4,7 +4,7 @@
 import matplotlib.pyplot as plt
 import numpy as np
 # Parameters
-a, b = =1.2, 0.4
+a, b = 1.2, 0.4
 xstar = ystar = 0.8358
 k1, k2 = -1.8, 1.2
 num_iterations = 199
