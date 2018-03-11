@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 data = np.loadtxt('housing.txt')
-columns, rows = data.shape
+rows, columns = data.shape
 columns = 4  # Using 4 columns from data in this case
 
 X = data[:, [5, 8, 12]]
@@ -15,15 +15,15 @@ k = 0
 
 xmean = X.mean(axis=0)
 xstd = X.std(axis=0)
-ones = np.array([np.ones(rows)]).T
-X = (X - xmean * ones) / (xstd * ones)
+ones = np.array([np.ones(rows)])
+X = (X - xmean * ones.T) / (xstd * ones.T)
 X = np.c_[np.ones(rows), X]
 
 tmean = (max(t) + min(t)) / 2
 tstd = (max(t) - min(t)) / 2
 t = (t - tmean) / tstd
 
-w = 0.1 * np.random.random(num_columns)
+w = 0.1 * np.random.random(columns)
 y1 = np.tanh(X.dot(w))
 e1 = t - y1
 mse = np.var(e1)
