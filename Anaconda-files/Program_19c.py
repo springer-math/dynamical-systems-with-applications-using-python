@@ -24,7 +24,7 @@ def two_lorenz_odes(X, t):
 
 y0 = [15, 20, 30, 10, 20]
 X = odeint(two_lorenz_odes, y0, t, rtol=1e-6)
-x1, x2, x3, y2, y3 = Z.T  # unpack columns
+x1, x2, x3, y2, y3 = X.T  # unpack columns
 
 plt.figure(1)
 
