@@ -7,10 +7,8 @@ import numpy as np
 from matplotlib import pyplot as plt
 from matplotlib.animation import FuncAnimation
 
-xmin = -4
-xmax = 4
-mu_min = -3
-mu_max = 3
+xmin, xmax = -4, 4
+mu_min, mu_max = -3, 3
 
 # Set up the figure.
 fig = plt.figure()
@@ -32,7 +30,7 @@ def animate(mu):
     return line,
 
 bifurcation = FuncAnimation(fig, animate, init_func=init,
-                            frames=np.linspace(mu_min, mu_max, 1000)
+                            frames=np.linspace(mu_min, mu_max, 1000),
                             interval=10, blit=True)
 
 plt.xlabel('x', fontsize=15)
