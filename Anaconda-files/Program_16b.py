@@ -1,5 +1,6 @@
 # Program 16b: Iteration of the ikeda map.
 # See Figure 16.11(b).
+
 from matplotlib import pyplot as plt
 import numpy as np
 

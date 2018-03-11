@@ -1,5 +1,6 @@
 # Program 05a: Limit cycle for Fitzhugh-Nagumo.
 # See Figure 5.3.
+
 import matplotlib.pyplot as plt
 import numpy as np
 from scipy.integrate import odeint

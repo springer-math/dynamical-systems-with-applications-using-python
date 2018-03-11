@@ -1,9 +1,10 @@
-# Program 14d: Iteration of the henon Map.
+# Program 14d: Iteration of the Henon Map.
 # See Figure 14.23.
 
 import matplotlib.pyplot as plt
+
 # Parameters
-a = 1.2  # Set a=1 to get Figure 14.23(a).
+a = 1.2  # Set a=1 to get Figure 14.23(a)
 b = 0.4
 num_iterations = 10000
 
@@ -13,7 +14,7 @@ def henon(X):
     yn=b*x
     return xn,yn
 
-# Ignore the first 100 iterates.
+# Ignore the first 100 iterates
 X0 = [(1 - b) / 2, (1 - b) / 2]
 X, Y = [], []
 for i in range(100):

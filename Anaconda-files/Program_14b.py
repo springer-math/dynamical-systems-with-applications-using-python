@@ -1,5 +1,6 @@
 # Program 14b: Bifurcation diagram of the logistic map.
 # See Figures 14.15 and 14.16.
+
 import numpy as np
 import matplotlib.pyplot as plt
 
