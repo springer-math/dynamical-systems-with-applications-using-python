@@ -25,8 +25,8 @@ def julia(X):
 
 x1 = (re(0.5 + sqrt(0.25 - (a + b*I)))).expand(complex=True)
 y1 = (im(0.5 + sqrt(0.25 - (a + b*I)))).expand(complex=True)
-isunstable = 2*abs(x1 + y1*I)
-print(isunstable)
+is_unstable = 2 * abs(x1 + y1*I)
+print(is_unstable)
 
 X0 = [x1, y1]
 X, Y = [], []
