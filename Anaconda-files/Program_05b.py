@@ -16,6 +16,6 @@ xN = xs[:, 0]
 xpert0 = np.cos(ts)
 plt.plot(ts, xN - xpert0)
 plt.xlabel('t')
-plt.ylabel('x')
+plt.ylabel('$x_N-x_0$')
 
 plt.show()

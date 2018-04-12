@@ -1,23 +1,20 @@
-# Program 18f: Fourier transform.
+# Program 18f: Fourier transform of a Lena image.
 # See Figure 18.7.
 
 import numpy as np
+import skimage.io as io
 import pylab
 import matplotlib.pyplot as plt
-from scipy import misc
 from skimage.color import rgb2gray
 
-face = misc.face()
-image = rgb2gray(face)
-
-image = image[1:701, 300:1001]
+lena = rgb2gray(io.imread('lena.jpg'))
 
 fig1 = plt.figure()
-plt.imshow(image, cmap='gray')
+plt.imshow(lena, cmap='gray')
 
 fig2 = plt.figure()
 # Take the 2-dimensional DFT and centre the frequencies
-ftimage = np.fft.fft2(image)
+ftimage = np.fft.fft2(lena)
 ftimage = np.fft.fftshift(ftimage)
 ftimage = np.abs(ftimage)
 fftimage = np.log(ftimage)

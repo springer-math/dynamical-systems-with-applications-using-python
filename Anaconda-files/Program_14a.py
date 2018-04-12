@@ -5,7 +5,7 @@ from sympy import Rational
 import numpy as np
 import matplotlib.pyplot as plt
 
-x = Rational(1, 5)  # initial value
+x = Rational(1, 5)  # Initial value
 inputs = np.array([x])
 outputs = np.array([0])
 print(x)

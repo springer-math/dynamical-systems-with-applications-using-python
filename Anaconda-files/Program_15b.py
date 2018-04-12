@@ -1,4 +1,4 @@
-# Program 15b: Colormap of a julia set.
+# Program 15b: Colormap of a Julia set.
 # See Figure 15.2.
 
 import numpy as np

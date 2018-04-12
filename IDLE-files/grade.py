@@ -1,4 +1,5 @@
 # A program to grade student results.
+# Save file as grade.py.
 # Run the Module (or type F5).
 
 def grade(score):

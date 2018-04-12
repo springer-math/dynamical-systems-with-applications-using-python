@@ -1,4 +1,5 @@
-# Program 07b: Hopf Bifurcation
+# Program 07b: Animation of a subcritical Hopf Bifurcation.
+# See Figure 7.7.
 
 from matplotlib import pyplot as plt
 from matplotlib.animation import ArtistAnimation

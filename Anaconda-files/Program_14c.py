@@ -1,5 +1,5 @@
 # Program 14c: Lyapunov exponents of the logistic map.
-# See Figure 14.17.
+# See Figure 14.18.
 
 import numpy as np
 import matplotlib.pyplot as plt

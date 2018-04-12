@@ -13,7 +13,6 @@ w1 = sqrt(2)
 w2 = 1
 
 def hamiltonian_4d(X, t):
-    """The Lorenz equations"""
     p1, p2, q1, q2 = X
     dp1 = -w1 * q1
     dp2 = -w2 * q2

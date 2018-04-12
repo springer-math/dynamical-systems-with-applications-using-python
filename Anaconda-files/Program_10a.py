@@ -1,4 +1,5 @@
-# Program 10a: Lienard Lyapunov quantities
+# Program 10a: Lienard Lyapunov quantities.
+# Compute L(1) and L(2). Note, L(0)=-a_1.
 
 from sympy import symbols,  solve
 
@@ -6,9 +7,11 @@ a2, a3, a4, a5 = symbols('a2 a3 a4 a5')
 b2, b3, b4, b5 = symbols('b2 b3 b4 b5')
 V30, V21, V12, V03 = symbols('V30 V21 V12 V03')
 
-solve([3*V30 - 2*V12 - b2, V12, V21 + a2,
+V3 = solve([3*V30 - 2*V12 - b2, V12, V21 + a2,
        2*V21 - 3*V03],
        [V30, V21, V12, V03])
+
+print(V3)
 
 V40, V31, V22, V13, V04, eta4 = symbols('V40 V31 V22 V13 V04 eta4')
 
@@ -21,6 +24,7 @@ V4 = solve([4*V40 - 2*V22 - b3+2 * a2**2,
             [V40, V31, V22, V13, V04, eta4])
 print(V4)
 
+# Set a3=2*a2*b2/3.
 V50, V41, V32, V23, V14, V05 = symbols('V50 V41 V32 V23 V14 V05')
 
 V5 = solve([5*V50 - 2*V32 - b4 + 10 * a2**2 * b2/3, 3*V32 - 4*V14,

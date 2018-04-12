@@ -21,7 +21,7 @@ for r in rs:
 ys = np.array(ys)
 
 plt.plot(ys[:, 0], ys[:, 1], 'r.', markersize=0.05)
-plt.xlabel('x', fontsize=15)
-plt.ylabel('$\mu$', fontsize=15)
+plt.xlabel('$\mu$', fontsize=15)
+plt.ylabel('x', fontsize=15)
 plt.tick_params(labelsize=15)
 plt.show()

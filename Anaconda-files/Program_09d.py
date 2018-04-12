@@ -1,5 +1,6 @@
 # Program 09d: Bifurcation diagram of the duffing equation.
 # See Figure 9.14.
+# This can take about 20 seconds to complie.
 
 import matplotlib.pyplot as plt
 import numpy as np

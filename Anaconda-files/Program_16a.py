@@ -4,7 +4,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-A, B = 1, 0.15
+A, B = 2.2, 0.15
 
 x, y = np.mgrid[0:4:100j, -4:4:100j]
 z1 = A + B*x*np.cos(x**2 + y**2) - B*y*np.sin(x**2 + y**2) - x

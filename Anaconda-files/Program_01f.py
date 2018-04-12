@@ -8,7 +8,7 @@ from mpl_toolkits.mplot3d import Axes3D
 fig = plt.figure(figsize=(8,6))
 ax = fig.add_subplot(1, 1, 1, projection='3d')
 
-t = np.linspace(-10,10,1000)
+t = np.linspace(-10, 10, 1000)
 x = np.sin(t)
 y = np.cos(t)
 z = t

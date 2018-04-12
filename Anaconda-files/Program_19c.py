@@ -29,6 +29,6 @@ x1, x2, x3, y2, y3 = X.T  # unpack columns
 plt.figure(1)
 
 plt.plot(x3, y3)
-plt.xlabel(r'$y_3$', fontsize=15)
-plt.ylabel(r'$x_3$', fontsize=15)
+plt.xlabel(r'$x_3$', fontsize=15)
+plt.ylabel(r'$y_3$', fontsize=15)
 plt.show()

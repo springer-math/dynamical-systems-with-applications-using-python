@@ -7,7 +7,7 @@ a = 1.2
 b = 0.4
 x = y = 0
 vec1 = [1, 0]
-vec2 = [0,1]
+vec2 = [0, 1]
 
 for i in range(490):
      xn = 1 - a*x*x + y

@@ -1,5 +1,6 @@
 # Koch square fractal.
 # Run the Module (or type F5).
+# Save file as koch_square.py.
 
 from turtle import *
 
