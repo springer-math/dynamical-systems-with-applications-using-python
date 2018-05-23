@@ -1,21 +1,21 @@
-# Program 05c: The Lindstedt-Poincare Method
-# Deriving the order epsilon equations.
-# See Example 9.
+ # Program 05c: Error between xN and x0. See Figure 5.10.
+# Error between one term solution and numerical solution.
 
-from sympy import collect, expand, Function, Symbol
+from scipy.integrate import odeint
+import matplotlib.pyplot as plt
+import numpy as np
 
-x0 = Function('x0')
-x1 = Function('x1')
-x2 = Function('x2')
-x = Function('x')
-t = Symbol('t')
-eps = Symbol('eps')
-w1 = Symbol('w1')
-w2 = Symbol('w2')
+def dx_dt(x, t):
+    return [x[1], 0.01 * x[0] ** 3 - x[0]]
 
-x = x0(t) + eps * x1(t) + eps ** 2 * x2(t)
-expr = (1 + eps * w1 + eps ** 2 * w2) ** 2 * x.diff(t, t) + x - eps * x **3
-expr = expand(expr)
-expr = collect(expr, eps)
+x0 = [1, 0]
+ts = np.linspace(0, 100, 2000)
+xs = odeint(dx_dt, x0, ts)
+xN = xs[:, 0]
 
-print(expr)
+xpert0 = np.cos(ts)
+plt.plot(ts, xN - xpert0)
+plt.xlabel('t')
+plt.ylabel('$x_N-x_0$')
+
+plt.show()
